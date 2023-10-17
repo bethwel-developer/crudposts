@@ -7,7 +7,7 @@ import Create from './Create'
 
 
 
-function Home() {
+function Home () {
 
   // fetch all posts
     const [users, setUsers] = useState([])
