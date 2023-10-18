@@ -40,7 +40,7 @@ function Home() {
     }
 
 
-
+// add new post
     const onAdd = async (title, body) => {
 
       await fetch("https://jsonplaceholder.typicode.com/posts", {
