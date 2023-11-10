@@ -15,7 +15,6 @@ function Read () {
       .catch(err => console.log(err))
   }, [id])
 
-
   return (
     <div className='  justify-around px-32 py-24 bg-white b'>
         
