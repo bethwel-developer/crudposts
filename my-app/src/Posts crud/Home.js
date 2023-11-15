@@ -5,8 +5,6 @@ import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Create from './Create'
 
-
-
 function Home() {
 
   // fetch all posts
