@@ -81,7 +81,6 @@ function Home() {
             </thead>
             <tbody>
               
-              
                 {users.map((d, i)=> (
                     <tr className='bg-white border-b dark:bg-gray-800 dark:border-gray-700' key={i}>
                           <td className="px-20 py-4 font-medium text-gray-900  dark:text-white" >{d.title}</td>
