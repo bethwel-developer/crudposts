@@ -35,8 +35,7 @@ function Home() {
     });
 
     }
-
-
+  
 //add post
     const onAdd = async (title, body) => {
 
@@ -66,9 +65,6 @@ function Home() {
         });
     };
   
-
-
-
   return (
     <div className='container ml-8'>
         <h2 className='mb-3 mt-4 font-bold text-2xl text-center'>CRUD APPLICATION WITH JSONPLACEHOLDER</h2>
