@@ -69,7 +69,6 @@ function Home() {
     <div className='container ml-8'>
         <h2 className='mb-3 mt-4 font-bold text-2xl text-center'>CRUD APPLICATION WITH JSONPLACEHOLDER</h2>
         <Create onAdd = {onAdd}/>
-
        
         <table className='w-full text-sm text-left text-gray-500 dark:text-gray-400 '>
             <thead className='text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 '>
