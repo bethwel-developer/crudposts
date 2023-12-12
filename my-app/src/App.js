@@ -13,7 +13,6 @@ function App() {
             <Route path='/update/:id' element={<Update />}></Route>
             <Route path='/read/:id' element={<Read />}></Route>
         </Routes>
-    
     </BrowserRouter>
   )
 }
