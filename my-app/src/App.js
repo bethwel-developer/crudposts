@@ -7,7 +7,7 @@ import Create from './Posts crud/Create'
 function App() {
   return (
  <BrowserRouter>
-        <Routes>
+         <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/create' element={<Create />}></Route>
             <Route path='/update/:id' element={<Update />}></Route>
