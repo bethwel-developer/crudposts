@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Posts crud/Home'
 import Read from './Posts crud/Read'
+
 import Update from './Posts crud/Update'
 
 import Create from './Posts crud/Create'
