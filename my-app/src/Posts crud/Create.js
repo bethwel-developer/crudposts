@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Textarea } from 'evergreen-ui';
 
 const Create = ({onAdd}) => {
