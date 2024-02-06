@@ -2,7 +2,6 @@ import React from 'react'
 
 import { Textarea } from 'evergreen-ui';
 
-
 const Create = ({onAdd}) => {
   const handleSubmit = (e) => {
         e.preventDefault();
