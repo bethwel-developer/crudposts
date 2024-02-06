@@ -9,8 +9,7 @@ const Create = ({onAdd}) => {
         e.target.title.value = "";
         e.target.body.value = "";
 }
-  
- return (
+  return (
     <div  className='py-8 px-8 '> 
      <h1 className="mb-8 text-2xl  font-bold ">CREATE POST</h1>
             <form onSubmit={handleSubmit}>
