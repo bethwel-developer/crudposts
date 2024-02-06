@@ -16,7 +16,6 @@ const Create = ({onAdd}) => {
             <form onSubmit={handleSubmit}>
            
                 
-                
                 <div>
                     <input placeholder='Enter post title' className="border-2 border-slate-300  w-full px-2 mb-4 py-4" 
                     type="text" 
