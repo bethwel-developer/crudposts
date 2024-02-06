@@ -5,8 +5,7 @@ import { useState } from 'react'
 import { Link, useParams} from 'react-router-dom'
 
 function Read () {
-    
-    const [Data, setdata] = useState([])
+     const [Data, setdata] = useState([])
     const {id} = useParams();
 
     useEffect(() => {
