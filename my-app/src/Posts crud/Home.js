@@ -37,6 +37,7 @@ function Home() {
     });
 
     }
+
   
 //add post
     const onAdd = async (title, body) => {
