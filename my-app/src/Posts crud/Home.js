@@ -14,6 +14,7 @@ function Home() {
           .then(res => setUsers(res.data))
           .catch(err => console.log(err))
     }, [])
+  
 
  //delete post
     function handleDelete (id) {
